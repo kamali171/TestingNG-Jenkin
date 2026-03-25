@@ -20,8 +20,7 @@ public class myAccountTest {
         driver.manage().window().maximize();
         
         // Open application (change URL if needed)
-        driver.get("http://automationpractice.com/index.php");
-
+        driver.get("https://demowebshop.tricentis.com/");
         // Initialize Page Object
         myAccountPage = new myAccountPage(driver);
     }
@@ -30,6 +29,7 @@ public class myAccountTest {
     public void testViewUserDetails() {
         // Click on account section
         myAccountPage.viewUserDetail();
+        myAccountPage.enterDetails();
     }
 
     @AfterClass

@@ -16,9 +16,22 @@ public class myAccountPage {
 	@FindBy(className = "account")
 	WebElement customerInfo;
 	
-//	@FindBy()
+	@FindBy(xpath = "//input[@id='Email']")
+	WebElement email;
+	
+	@FindBy(xpath = "//input[@id='Password']")
+	WebElement password;
+	
+	@FindBy(xpath = "//input[@value='Log in']")
+	WebElement logInBtn;
 	
 	public void viewUserDetail() {
 		customerInfo.click();
+	}
+	
+	public void enterDetails() {
+		email.sendKeys("exampleam@gmail.com");
+		password.sendKeys("asdfghjkl");
+		logInBtn.click();
 	}
 }

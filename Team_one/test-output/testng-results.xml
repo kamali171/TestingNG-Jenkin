@@ -2,19 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-25T15:24:47 IST" name="Default suite" finished-at="2026-03-25T15:25:46 IST" duration-ms="58992">
+  <suite started-at="2026-03-25T16:06:56 IST" name="Default suite" finished-at="2026-03-25T16:07:05 IST" duration-ms="9039">
     <groups>
     </groups>
-    <test started-at="2026-03-25T15:24:47 IST" name="Default test" finished-at="2026-03-25T15:25:46 IST" duration-ms="58992">
+    <test started-at="2026-03-25T16:06:56 IST" name="Default test" finished-at="2026-03-25T16:07:05 IST" duration-ms="9039">
       <class name="com.Test.myAccountTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.myAccountTest@179ece50]" started-at="2026-03-25T15:24:48 IST" name="setup" finished-at="2026-03-25T15:25:10 IST" duration-ms="22940" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.myAccountTest@3cd3e762]" started-at="2026-03-25T16:06:56 IST" name="setup" finished-at="2026-03-25T16:07:02 IST" duration-ms="5702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testViewUserDetails()[pri:0, instance:com.Test.myAccountTest@179ece50]" started-at="2026-03-25T15:25:10 IST" name="testViewUserDetails" finished-at="2026-03-25T15:25:46 IST" duration-ms="35947" status="PASS">
+        <test-method signature="testViewUserDetails()[pri:0, instance:com.Test.myAccountTest@3cd3e762]" started-at="2026-03-25T16:07:02 IST" name="testViewUserDetails" finished-at="2026-03-25T16:07:05 IST" duration-ms="2940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testViewUserDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.myAccountTest@3cd3e762]" started-at="2026-03-25T16:07:05 IST" name="tearDown" finished-at="2026-03-25T16:07:05 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.Test.myAccountTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -25,13 +25,24 @@ public class myAccountPage {
 	@FindBy(xpath = "//input[@value='Log in']")
 	WebElement logInBtn;
 	
+	@FindBy(xpath = "(//h1[normalize-space()='My account - Customer info'])[1]")
+	WebElement cem;
+	
 	public void viewUserDetail() {
 		customerInfo.click();
 	}
 	
 	public void enterDetails() {
+		String exp = "My account - Customer info";
 		email.sendKeys("exampleam@gmail.com");
 		password.sendKeys("asdfghjkl");
 		logInBtn.click();
+		String act = cem.getText();
+		if(act.equals(exp)) {
+			System.out.println("Logged In Successfully");
+		}
+		else {
+			System.out.println("Log In is not successful");
+		}
 	}
 }

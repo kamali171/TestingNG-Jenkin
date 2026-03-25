@@ -20,7 +20,7 @@ public class myAccountTest {
         driver.manage().window().maximize();
         
         // Open application (change URL if needed)
-        driver.get("https://demowebshop.tricentis.com/");
+        driver.get("http://automationpractice.com/index.php");
 
         // Initialize Page Object
         myAccountPage = new myAccountPage(driver);

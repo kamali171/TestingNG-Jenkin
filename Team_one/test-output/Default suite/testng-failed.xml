@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Test.CategoryTest">
+        <methods>
+          <include name="testApparelShoesCategory"/>
+          <include name="testElectronicsCategory"/>
+          <include name="setUp"/>
+          <include name="testDigitalDownloadsCategory"/>
+          <include name="testCellPhonesSubCategory"/>
+          <include name="tearDown"/>
+          <include name="testGiftCardsCategory"/>
+          <include name="testAccessoriesSubCategory"/>
+          <include name="testComputersCategory"/>
+          <include name="testNotebooksSubCategory"/>
+          <include name="testCameraPhotoSubCategory"/>
+          <include name="testBreadcrumbOnBooksPage"/>
+          <include name="testDesktopsSubCategory"/>
+          <include name="testBooksCategory"/>
+          <include name="testJewelryCategory"/>
+          <include name="testPriceFilterOnBooksPage"/>
+        </methods>
+      </class> <!-- com.Test.CategoryTest -->
+      <class name="com.Test.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initPage"/>
+          <include name="testValidLogin"/>
+          <include name="testInvalidPassword"/>
+          <include name="testEmptyPassword"/>
+          <include name="testEmptyEmail"/>
+          <include name="testLogout"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Test.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

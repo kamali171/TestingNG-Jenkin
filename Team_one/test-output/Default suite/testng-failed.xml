@@ -3,6 +3,40 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
+      <class name="com.Test.CategoryTest">
+        <methods>
+          <include name="testApparelShoesCategory"/>
+          <include name="testElectronicsCategory"/>
+          <include name="setUp"/>
+          <include name="testDigitalDownloadsCategory"/>
+          <include name="testCellPhonesSubCategory"/>
+          <include name="tearDown"/>
+          <include name="testGiftCardsCategory"/>
+          <include name="testAccessoriesSubCategory"/>
+          <include name="testComputersCategory"/>
+          <include name="testNotebooksSubCategory"/>
+          <include name="testCameraPhotoSubCategory"/>
+          <include name="testBreadcrumbOnBooksPage"/>
+          <include name="testDesktopsSubCategory"/>
+          <include name="testBooksCategory"/>
+          <include name="testJewelryCategory"/>
+          <include name="testPriceFilterOnBooksPage"/>
+        </methods>
+      </class> <!-- com.Test.CategoryTest -->
+      <class name="com.Test.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initPage"/>
+          <include name="testValidLogin"/>
+          <include name="testInvalidPassword"/>
+          <include name="testEmptyPassword"/>
+          <include name="testEmptyEmail"/>
+          <include name="testLogout"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Test.LoginTest -->
+=======
       <class name="com.Test.myAccountTest">
         <methods>
           <include name="setup"/>
@@ -10,6 +44,7 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Test.myAccountTest -->
+>>>>>>> branch 'kamali' of https://github.com/kamali171/TestingNG-Jenkin.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

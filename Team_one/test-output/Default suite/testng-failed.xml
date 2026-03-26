@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.Test.CategoryTest">
         <methods>
           <include name="testApparelShoesCategory"/>
@@ -35,6 +36,15 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.Test.LoginTest -->
+=======
+      <class name="com.Test.myAccountTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testViewUserDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Test.myAccountTest -->
+>>>>>>> branch 'kamali' of https://github.com/kamali171/TestingNG-Jenkin.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,9 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+
       <class name="com.Test.LoginTest"/>
       <class name="com.Test.CategoryTest"/>
       <class name="com.utils.BaseTest"/>
+      <class name="com.Test.myAccountTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
